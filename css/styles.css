@@ -67,8 +67,12 @@ body {
 
 /* lightbox update */
 
+.lb-data .lb-caption {
+    font-size: 1.1em;
+}
+
 .lb-data .lb-number {
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 5px 0;
 }
 
