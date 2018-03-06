@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSheraz Photo Gallery</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Josefin+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class ='main-header'>DSheraz Photo Gallery</div>
+    </header>
+
+      <div class ='search'>
+        <input type="text" id="search" placeholder="Search(16pt)">
+      </div>
+
+      <ul class='gallery flex' id='myImages'>
+        <li><a href="img/01.jpg" data-lightbox="images" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="Hay Bales">
+          <img src=img/thumbnails/01.jpg alt="Hay Bales">
+        </a></li>
+        <li><a href="img/02.jpg" data-lightbox="images" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here." data-alt="Lake">
+          <img src=img/thumbnails/02.jpg alt="Lake">
+        </a></li>
+        <li><a href="img/03.jpg" data-lightbox="images" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below." data-alt="Canyon">
+          <img src=img/thumbnails/03.jpg alt="Canyon">
+        </a></li>
+        <li><a href="img/04.jpg" data-lightbox="images" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." data-alt="Iceberg">
+          <img src=img/thumbnails/04.jpg alt="Iceberg">
+        </a></li>
+        <li><a href="img/05.jpg" data-lightbox="images" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." data-alt="Desert">
+          <img src=img/thumbnails/05.jpg alt="Desert">
+        </a></li>
+        <li><a href="img/06.jpg" data-lightbox="images" data-title="Fall is coming, I love when the leaves on the trees start to change color." data-alt="Fall">
+          <img src=img/thumbnails/06.jpg alt="Fall">
+        </a></li>
+        <li><a href="img/07.jpg" data-lightbox="images" data-title="I drove past this plantation yesterday, everything is so green!" data-alt="Plantation">
+          <img src=img/thumbnails/07.jpg alt="Plantation">
+        </a></li>
+        <li><a href="img/08.jpg" data-lightbox="images" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!" data-alt="Dunes">
+          <img src=img/thumbnails/08.jpg alt="Dunes">
+        </a></li>
+        <li><a href="img/09.jpg" data-lightbox="images" data-title="We enjoyed a quiet stroll down this countryside lane." data-alt="Countryside Lane">
+          <img src=img/thumbnails/09.jpg alt="Countryside Lane">
+        </a></li>
+        <li><a href="img/10.jpg" data-lightbox="images" data-title="Sunset at the coast! The sky turned a lovely shade of orange." data-alt="Sunset">
+          <img src=img/thumbnails/10.jpg alt="Sunset">
+        </a></li>
+        <li><a href="img/11.jpg" data-lightbox="images" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking." data-alt="Cave">
+          <img src=img/thumbnails/11.jpg alt="Cave">
+        </a></li>
+        <li><a href="img/12.jpg" data-lightbox="images" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." data-alt="Bluebells">
+          <img src=img/thumbnails/12.jpg alt="Bluebells">
+        </a></li>
+      </ul>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="lightbox/js/lightbox.min.js"></script>
+  <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+  <script>
+    lightbox.option({
+      'alwaysShowNavOnTouchDevices' : true
+    })
+  </script>
+  <script src="js/main.js"></script>
+  </body>
+
+</html>
