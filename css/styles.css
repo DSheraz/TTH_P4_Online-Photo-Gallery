@@ -23,14 +23,12 @@ body {
   margin: 30px auto;
   text-align: center;
 }
-
 #search {
   width: 80%;
   border-radius: 10px;
   padding: 10px 10px;
   background-color: #E8BA6A;
 }
-
 #search:focus{
   background-color: #FFE5B5;
   transition: all 0.5s;
@@ -61,9 +59,7 @@ body {
    border: 6px solid #593C44;
    opacity: 0.7;
    transition: all 0.5s;
-
 }
-
 
 /* lightbox update */
 .lb-dataContainer {
@@ -72,12 +68,10 @@ body {
 .lb-data .lb-caption {
     font-size: 1.1em;
 }
-
 .lb-data .lb-number {
   font-size: 1em;
   padding: 5px 0;
 }
-
 #lightboxOverlay {
   position: fixed !important;
   top: 0;
@@ -91,7 +85,6 @@ body {
 
 /* media queries */
 @media (min-width: 768px){
-
   #search {
     width: 60%;
   }
@@ -106,14 +99,12 @@ body {
     top: -15px;
     right: 47%;
   }
-
   .lb-data .lb-close:hover,
   .lb-data .lb-close:focus {
     background-color: #3B282D;
     opacity: 1;
     transition: all 0.5s;
   }
-
   .lb-data .lb-details {
     text-align: center;
     width: 100%;
@@ -121,7 +112,6 @@ body {
 }
 
 @media (min-width: 1024px){
-
   #search {
     width: 50%;
   }
@@ -129,5 +119,4 @@ body {
     max-width:900px;
     margin: auto;
   }
-
 }
